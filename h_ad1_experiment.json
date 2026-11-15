@@ -1,0 +1,26 @@
+{
+    "experiment": "H_AD1_epoch18_prediction",
+    "model": "epochs-demo medium MLP",
+    "input_epochs": [
+        1,
+        10
+    ],
+    "hidden_target_epoch": 18,
+    "target": "Full model parameter state at epoch 18",
+    "AD1": {
+        "concept": "Discrete dynamical representation of the model parameter trajectory",
+        "trajectory": "Theta(t)",
+        "observed_change": "Theta(10) - Theta(1)",
+        "prediction_operation": "Not yet specified",
+        "status": "Conceptually identified; prediction rule requires formalization"
+    },
+    "configuration": {
+        "epochs": 200,
+        "batch_size": 64,
+        "learning_rate": 0.01,
+        "noise": 0.2,
+        "samples": 1000,
+        "capacity": "medium",
+        "seed": 42
+    }
+}
